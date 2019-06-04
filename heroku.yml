@@ -1,0 +1,5 @@
+build:
+  docker:
+    web: Dockerfile
+run:
+  web: -b 0.0.0.0 -Djboss.http.port=$PORT
